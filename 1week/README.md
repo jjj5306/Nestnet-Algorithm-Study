@@ -79,7 +79,7 @@ int main() {
 
 아래의 문제 중 선택해서 3문제 푸시면 됩니다.
 
-1. https://www.acmicpc.net/problem/1012 (실버)
-2. https://www.acmicpc.net/problem/7569 (골드)
-3. https://www.acmicpc.net/problem/2206 (골드)
+1. [https://www.acmicpc.net/problem/1012](https://www.acmicpc.net/problem/1012) (실버)
+2. [https://www.acmicpc.net/problem/7569](https://www.acmicpc.net/problem/7569) (골드)
+3. [https://www.acmicpc.net/problem/2206](https://www.acmicpc.net/problem/2206) (골드)
 4. 자율
