@@ -41,6 +41,10 @@
 
 - ex) `git commit -m "24.09.30 JoJunHwa ps BFS"`
 
+11. pull request commit message는 다음과 같습니다.
+
+- `1주차 완료`
+
 <br>
 
 ## 주차별 활동 (24.09.30 ~ )
