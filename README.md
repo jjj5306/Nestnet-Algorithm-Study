@@ -19,29 +19,31 @@
 
 5. 문제풀이 언어는 제한 없습니다.
 
-6. 문제를 풀지 않으면 첫 번째는 경고, 두 번째부터는 벌금 만원이 부과됩니다.
+6. 매 주 정해진 과제를 제출하지 않으면 첫 번째는 경고, 두 번째부터는 벌금 만원이 부과됩니다.
+
+7. 선정된 문제 중 이미 푼 문제가 있다면 다른 문제를 푸셔도 됩니다. 난이도만 골드 1문제 이상 풀어주세요.
 
 ### 제출 방법
 
-7. 문제 제출 여부는 pull request를 보고 판단하겠습니다. 매 주 fork 된 repository에 pull request를 생성하시면 됩니다.
+8. 문제 제출 여부는 pull request를 보고 판단하겠습니다. 매 주 fork 된 repository에 pull request를 생성하시면 됩니다.
 
-8. pull reqeust에 포함되어야 하는 내용은 다음과 같습니다.
+9. pull reqeust에 포함되어야 하는 내용은 다음과 같습니다.
 
    - 성공이 포함된 백준 캡쳐 사진
 
    - 문제 풀이 코드
 
-9. 모든 push는 본인 이름의 디렉토리와 주차별 디렉토리를 생성한 후, 해당 디렉토리에서 이루어져야 합니다.
+10. 모든 push는 본인 이름의 디렉토리와 주차별 디렉토리를 생성한 후, 해당 디렉토리에서 이루어져야 합니다.
 
-   <img src="image.png" width="50%" height="50%"/>
+    <img src="image.png" width="50%" height="50%"/>
 
-10. 커밋 메시지 형식은 다음과 같습니다.
+11. 커밋 메시지 형식은 다음과 같습니다.
 
 - `git commit -m "날짜 이름 ps 주제"`
 
 - ex) `git commit -m "24.09.30 JoJunHwa ps BFS"`
 
-11. pull request commit message는 다음과 같습니다.
+12. pull request commit message는 다음과 같습니다.
 
 - `1주차 완료`
 
@@ -52,3 +54,5 @@
 ### 1주차 - 24.09.30 - BFS
 
 [1주차 활동 보기](./1week/README.md)
+
+[2주차 활동 보기](./2week/README.md)
