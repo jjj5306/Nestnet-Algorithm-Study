@@ -1,21 +1,22 @@
-# 7576번 문제와 거의 같은 코드인데 이건 시간 초과고 7576번은 정답인 이유를 잘 모르겠어요.
+# 수정: 변수 q의 자료형 (Queue -> Deque)
+# 결과: 정답
 
 import sys
-from queue import Queue
+from collections import deque
 
 m, n, h = list(map(int, sys.stdin.readline().split()))
 
 arr = [[[0 for y in range(m)] for x in range(n)] for z in range(h)]
 dist = [[[0 for y in range(m)] for x in range(n)] for z in range(h)]
 
-q = Queue()
+q = deque()
 
 for z in range(h):
     for x in range(n):
         arr[z][x] = list(map(int, sys.stdin.readline().split()))
         for y in range(m):
             if arr[z][x][y] == 1:
-                q.put([x, y, z])
+                q.append([x, y, z])
             if arr[z][x][y] == 0:
                 dist[z][x][y] = -1
 
@@ -23,8 +24,8 @@ mx = [1, -1, 0, 0, 0, 0]
 my = [0, 0, 1, -1, 0, 0]
 mz = [0, 0, 0, 0, 1, -1]
 
-while not q.empty():
-    cursor = q.get()
+while len(q) > 0:
+    cursor = q.popleft()
     for dir in range(6):
         nx = cursor[0] + mx[dir]
         ny = cursor[1] + my[dir]
@@ -35,7 +36,7 @@ while not q.empty():
         if dist[nz][nx][ny] >= 0:
             continue
 
-        q.put([nx, ny, nz])
+        q.append([nx, ny, nz])
         dist[nz][nx][ny] = dist[cursor[2]][cursor[0]][cursor[1]] + 1
 
 def isDone():

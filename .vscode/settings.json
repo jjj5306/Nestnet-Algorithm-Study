@@ -4,6 +4,7 @@
     "queue": "cpp",
     "iostream": "cpp",
     "utility": "cpp",
-    "tuple": "cpp"
+    "tuple": "cpp",
+    "ostream": "cpp"
   }
 }
