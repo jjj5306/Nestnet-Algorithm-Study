@@ -80,6 +80,6 @@ int main() {
 아래의 문제 중 선택해서 3문제 푸시면 됩니다.
 
 1. [1012번: 유기농 배추](https://www.acmicpc.net/problem/1012) (실버)
-2. [7529번: 토마토](https://www.acmicpc.net/problem/7569) (골드)
+2. [7569번: 토마토](https://www.acmicpc.net/problem/7569) (골드)
 3. [2206번: 벽 부수고 이동하기 ](https://www.acmicpc.net/problem/2206) (골드)
 4. 자율
