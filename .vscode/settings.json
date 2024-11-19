@@ -1,10 +1,10 @@
 {
+
+  "files.watcherExclude": {
+    "**/target": true
+
+  },
   "files.associations": {
-    "algorithm": "cpp",
-    "queue": "cpp",
-    "iostream": "cpp",
-    "utility": "cpp",
-    "tuple": "cpp",
-    "ostream": "cpp"
+    "vector": "cpp"
   }
 }
