@@ -62,3 +62,5 @@
 [6주차 활동 보기](/6week/README.md)
 
 [7주차 활동 보기](/7week/README.md)
+
+[8주차 활동 보기](/8week/README.md)
