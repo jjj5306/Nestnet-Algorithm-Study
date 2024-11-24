@@ -56,3 +56,11 @@
 [1주차 활동 보기](./1week/README.md)
 
 [2주차 활동 보기](./2week/README.md)
+
+3, 4, 5주차는 시험기간으로 쉬어갑니다.
+
+[6주차 활동 보기](/6week/README.md)
+
+[7주차 활동 보기](/7week/README.md)
+
+[8주차 활동 보기](/8week/README.md)

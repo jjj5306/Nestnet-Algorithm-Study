@@ -32,7 +32,7 @@ int main(){
             board[y][x] = 1;
         }
 
-        for(int i = 0; i < N; i++){
+        for(int i = 0; i < N; i++) {
             for(int j = 0; j < M; j++){ // (i, j)를 시작점으로 하고 싶은 상황
                 if(board[i][j] == 0 || vis[i][j]) continue; // 해당 칸이 색칠이 안된 부분(0)이거나 이미 (i, j)를 방문했을 경우 넘어감
                 // (i,j)는 새로운 그림에 속해있는 시작점
@@ -42,7 +42,7 @@ int main(){
                 Q.push({i,j});
                 while(!Q.empty()){
                     pair<int,int> cur = Q.front(); Q.pop();
-                    for(int dir = 0; dir < 4; dir++){ // 상하좌우 칸을 살펴볼 것이다.
+                    for(int dir = 0; dir < 4; dir++) { // 상하좌우 칸을 살펴볼 것이다.
                         int nx = cur.X + dx[dir];
                         int ny = cur.Y + dy[dir]; // nx, ny에 dir에서 정한 방향의 인접한 칸의 좌표가 들어감
                         if(nx < 0 || nx >= N || ny < 0 || ny >= M) continue; // 범위 밖일 경우 넘어감
